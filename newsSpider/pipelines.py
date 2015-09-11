@@ -7,6 +7,7 @@
 import codecs
 import datetime
 import os
+
 def  CreateDateFolder():
 	now=datetime.datetime.now()
 	strTime=now.strftime("%Y-%m-%d")
